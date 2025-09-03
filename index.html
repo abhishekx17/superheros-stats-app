@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marvel Character Finder</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>Marvel Character Stats</h1>
+
+  <div id="character-container" class="character-grid">
+    <div class="character-card">Iron Man</div>
+    <div class="character-card">Captain America</div>
+    <div class="character-card">Thor</div>
+    <div class="character-card">Black Widow</div>
+    <div class="character-card">Hulk</div>
+    <div class="character-card">Spider-Man</div>
+    <div class="character-card">Black Panther</div>
+    <div class="character-card">Doctor Strange</div>
+  </div>
+
+  <div class="overlay" id="overlay">
+    <div class="card">
+      <div class="card-header">
+        <span id="card-title">Iron Man</span>
+        <span class="close-btn" id="closeBtn">&times;</span>
+      </div>
+      <img id="card-img" src="https://pngimg.com/d/ironman_PNG72.png" alt="Iron Man">
+      <div class="hero-name" id="card-name">Iron Man</div>
+      <div class="tag" id="card-tag">Avenger, Tech Genius</div>
+      <div class="stats">
+        <div class="stat">Strength: <span id="stat-strength">85</span></div>
+        <div class="stat">Speed: <span id="stat-speed">75</span></div>
+        <div class="stat">Intelligence: <span id="stat-intel">95</span></div>
+        <div class="stat">Durability: <span id="stat-dura">80</span></div>
+        <div class="stat">Experience: <span id="stat-exp">99</span></div>
+        <div class="stat">Abilities: <span id="stat-ability">Arc Reactor Suit</span></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
